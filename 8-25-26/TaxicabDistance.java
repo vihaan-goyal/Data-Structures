@@ -10,15 +10,13 @@ public class TaxicabDistance {
 
     
     public static void main(String[] args){
-
-        for (int i = startX - distance; i <= startX + distance; i++) {
+        for (int i = startX - distance; i <= startX + distance; i++) 
             for (int j = startY - distance; j <= startY + distance; j++) {
-                if((getDistance(i, j)) <= distance)
+                if(getDistance(i, j) <= distance)
                     System.out.println("(" + i + "," + j + ")");
             }
         }
         
-    }
 
     public static int getDistance(int x, int y){
         return Math.abs(x - startX) + Math.abs(y - startY);
