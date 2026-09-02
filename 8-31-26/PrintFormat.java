@@ -10,7 +10,9 @@ public class PrintFormat {
         System.out.printf("\t\t" + "$%.2f\n", y);
         System.out.printf("\t\t" + "$%.2f\n", z);
          */
-        System.out.printf("\t\t $%.2f\n \t\t $%.2f\n \t\t $%.2f\n \t\t $%.2f", w, x, y, z);
+        //System.out.printf("\t\t $%.2f\n \t\t $%.2f\n \t\t $%.2f\n \t\t $%.2f", w, x, y, z);
+        System.out.printf("%s","Hi\n");
+        System.out.printf("W: %.2f \nX: %.2f \nY: %.2f \nZ: %.2f", w, x, y, z);
 
     }
 }

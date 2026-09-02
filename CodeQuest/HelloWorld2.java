@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HelloWorld{
+public class HelloWorld2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int cases = Integer.parseInt(scanner.nextLine());
