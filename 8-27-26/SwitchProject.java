@@ -5,7 +5,7 @@ public class SwitchProject{
         System.out.println("Enter a 'Y' or 'N':");
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
-        double num = Double.parseDouble(input);
+        //double num = Double.parseDouble(input);
 
         if (input.equals("Y")){
             System.out.println("yes");
